@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" type="text/css" href="layout.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <title>1901189 | Hasna Nadaa Fida Karima</title>
+</head>
+
+<body>
+
+  <br />
+  <br />
+
+  <div class="main">
+    <div style="margin-left: 5%">
+      <form action="index.php" method="POST">
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <label for="tname">Name</label>
+            <input type="text" class="form-control" name="tname" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <label for="tdeadline">Deadline</label>
+            <input class="form-control" type="date" name="tdeadline" name="tdeadline" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <label for="taddress">Address</label>
+            <textarea class="form-control" name="taddress" rows="3" required></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="tmatkul">Mata Kuliah</label>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tmatkul" id="tmatkul" value="RPL" />
+                <label class="form-check-label" for="tmatkul1">RPL</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tmatkul" id="tmatkul2" value="DPBO" />
+                <label class="form-check-label" for="tmatkul2">DPBO</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tmatkul" id="tmatkul3" value="Sistem Informasi" />
+                <label class="form-check-label" for="tmatkul3">Sistem Informasi</label>
+              </div>
+              <br/>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tmatkul" id="tmatkul4" value="Analisis Desain dan Algoritma" />
+                <label class="form-check-label" for="tmatkul4">Analisis Desain dan Algoritma</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="tkelas">Kelas</label>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tkelas" id="tkelas1" value="C1" />
+                <label class="form-check-label" for="tkelas1">C1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tkelas" id="tkelas2" value="C2" />
+                <label class="form-check-label" for="tkelas2">C2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="tkelas" id="tkelas3" value="Pilkom" />
+                <label class="form-check-label" for="tkelas3">Pilkom</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" name="add" class="btn btn-primary">Add</button>
+      </form>
+      
+
+      <br>
+      
+      <!-- Tabel 1 - Task -->
+      <div style="display: inline-block; ">
+        <h3>Isi Tabel</h3>
+        <!-- TABEL1 -->
+        <table align="left" border="3" style="text-align: center;">
+          <tr>
+            <td>No</td>
+            <td>Name</td>
+            <td>Deadline</td>
+            <td>Address</td>
+            <td>Mata Kuliah</td>
+            <td>Kelas</td>
+            <td>Status</td>
+            <td>Aksi</td>
+          </tr>
+          <tr>
+            <!-- DATA YG AKAN DIGANTI -->
+            DATA_TABEL
+          </tr>
+
+        </table>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
